@@ -1,0 +1,20 @@
+.container img{
+    width: 1070px;
+    height: 500px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+.text{
+    position:absolute;
+    text-align: center;
+    color: white;
+    top: 30%;
+    left: 0%;
+    right: 0%;
+    
+
+}
+.row{
+    text-align: center;
+    top: 30%;
+    left: 0%;
+}
