@@ -5,4 +5,7 @@ $(document).ready(function() {
     $("#dev").click(function(){
         $("#p2").toggle();
     });
+    $("#pro").click(function(){
+        $("#p3").toggle();
+    })
 });
