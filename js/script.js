@@ -9,3 +9,7 @@ $(document).ready(function() {
         $("#p3").toggle();
     })
 });
+
+function myFunction() {
+    alert("We have Received Your Message!");
+  }
