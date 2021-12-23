@@ -30,7 +30,7 @@
     position:absolute;
     text-align:center;
     color:white;
-    top: 50%;
+    top: 20%;
     left: 0%;
     right: 0%;
 }
@@ -103,4 +103,12 @@
     top: 20%;
     left: 0%;
     right: 0%; 
+}
+.BTN{
+    padding: 10px 20px;
+    transition-duration: o.4s;
+}
+.BTN:hover{
+    color: white;
+    background-color: black;
 }
