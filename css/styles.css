@@ -53,9 +53,7 @@
     height: 40%;
     width: 30%;
 }
- .container:hover .pics{
-   opacity: 0.7s;
-}
+
 #work3{
     transition: .5s ease;
     height: 70%;
@@ -126,8 +124,9 @@ h1{
     transition-duration: o.4s;
 }
 .BTN:hover{
-    color: white;
-    background-color: black;
+    background: #ff96ad;
+    box-shadow: 0 0 5px #ff96ad,0 0 25px #ff96ad, 0 0 200px #ff96ad, 0 0 200px #ff96ad;
+    
 }
 .fa {
     padding: 50px;
@@ -140,6 +139,9 @@ h1{
   }
   .fa:hover {
     opacity: 0.7;
+    box-shadow: 10px 10px opx #55ACEE;
+    top: -5px;
+    left: -5px;
 }
 .fa-facebook {
     background: #3B5998;
