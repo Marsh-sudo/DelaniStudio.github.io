@@ -25,7 +25,7 @@ function myFunction(e) {
 $(document).ready(function() {
     $('.pics').mouseover(function(){
         $(this).css('opacity','.2');
-        
+        $('.overlay').hover();
         
     }).mouseout(function(){
         $(this).css('opacity','1');
@@ -45,6 +45,8 @@ $('.ved').click(function(){
      $('#pro').toggle();
  })
 
-  
+  $('#p1').toggle();
+  $('#p3').toggle();
+  $('#p2').toggle();
 
   
